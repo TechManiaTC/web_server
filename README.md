@@ -6,7 +6,7 @@ static存放静态文件
 
 template存放前端html文件
 
-routes.py存放路由函数，包含了用字典实现的路由分发函数
+routes.py存放路由函数, 包含了用字典实现的路由分发函数, 以下是文件中的部分代码:
 ```python
 def route_dict():
     """
@@ -25,7 +25,7 @@ def route_dict():
     return d
 ```
 
-server.py为服务启动文件，定义了一个保存请求的类与url解析函数
+server.py为服务启动文件, 定义了一个保存请求的类与url解析函数, 以下是文件中的部分代码:
 ```python
 class Request(object):
     def __init__(self):
